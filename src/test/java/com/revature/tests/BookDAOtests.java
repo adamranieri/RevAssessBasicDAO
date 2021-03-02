@@ -9,11 +9,12 @@ import org.junit.jupiter.api.MethodOrderer;
 import org.junit.jupiter.api.Order;
 
 import org.junit.jupiter.api.TestMethodOrder;
-
+import com.revature.assessors.RevAssess;
 import com.revature.assessors.RevaTest;
 import com.revature.daos.BookDAO;
 import com.revature.entities.Book;
 
+@ExtendWith(RevAssess.class)
 @TestMethodOrder(MethodOrderer.OrderAnnotation.class)
 class BookDAOtests {
 
