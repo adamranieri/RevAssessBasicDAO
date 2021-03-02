@@ -5,4 +5,4 @@ You can edit the pom.xml but do not remove anything already in there. If you see
 
 # RevAssess uploads everything in your project directory
 If you do not  want your credentials stored in private repo
-use evironment varaibles or use a properties file located elsewhere on your machine
+use evironment variables or use a properties file located elsewhere on your machine
